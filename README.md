@@ -1,73 +1,92 @@
-# Welcome to your Lovable project
+🛰️ Judgement – Autonomous Defense Drone Platform
 
-## Project info
+Judgement is an India-first autonomous drone platform built for real-time tactical operations, surveillance, and mission autonomy. This is the main repository coordinating all subdomains: AI/ML, Full Stack, Robotics, Cybersecurity, and Semiconductor.
 
-**URL**: https://lovable.dev/projects/109c5877-a20b-418a-b22e-3b65d9b96cb7
+---
 
-## How can I edit this code?
+🔧 Project Overview
 
-There are several ways of editing your application.
+🚀 Core Features:
+- AI-powered autonomy (object detection, decision logic)
+- Real-time secure communication (MQTT/WebRTC)
+- Modular mission control dashboard (React + CesiumJS)
+- PX4 + ROS2 drone simulation
+- RISC-V/ARM SoC feasibility for onboard AI inference
+- Encrypted data infrastructure and fallback comm protocols
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/109c5877-a20b-418a-b22e-3b65d9b96cb7) and start prompting.
+📂 Subteam Repositories
 
-Changes made via Lovable will be committed automatically to this repo.
+| Subteam        | Repository Link                | Description                         |
+|----------------|--------------------------------|-------------------------------------|
+| Full Stack     | `judgement-core`               | UI + Backend + API + Realtime Sync  |
+| AI/ML          | `judgement-ai`                 | YOLO/MobileNet models + Inference   |
+| Robotics       | `judgement-robotics`           | PX4, ROS2, mission behavior sim     |
+| Cybersecurity  | `judgement-security`           | TLS, auth, pen testing, fallback    |
+| Semiconductor  | `judgement-soc`                | Onboard inference, SoC benchmarking |
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+📅 Project Timeline (4 Weeks)
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+| Week | Focus                                |
+|------|--------------------------------------|
+| 1    | Setup + Dataset + Schema + Simulation|
+| 2    | Core functionality + APIs + Integration |
+| 3    | Optimization + Edge Simulation       |
+| 4    | Final Integration + Demo             |
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+🛠️ Technologies Used
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+- 🧠 AI: YOLOv11s, PyTorch, OpenCV
+- 🌐 Backend: Node.js / FastAPI
+- 💻 Frontend: React.js, CesiumJS, TailwindCSS
+- 🔄 Realtime: WebSocket, MQTT
+- 📦 DB: PostgreSQL, Redis
+- 🧪 Sim: PX4, ROS2
+- 🔐 Security: TLS, OAuth, Audit Logs
+- ⚙️ SoC: RISC-V, ARM, Edge TPU
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+📜 Roles & Team Structure
 
-**Edit a file directly in GitHub**
+- 👨‍✈️ Team Leader: [Purushottam Shukla]
+- 🤖 AI/ML Lead [Yatish Bajaj]
+- 🧠 Full Stack Lead [Lokark Bharmar]
+- ✈️ Robotics Lead 
+- 🔐 Security Lead [Khush Thakkar]
+- 🧬 Semiconductor Lead [Diwakar Gupta]
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Each subteam is responsible for maintaining their respective repo and integrating via pull requests to this central repo when ready.
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+📎 Contribution Guidelines
 
-## What technologies are used for this project?
+1. Fork your subteam repo
+2. Work on `feature/branch-name`
+3. Push code and open PR to your subteam lead
+4. Subteam lead reviews → PR to this main repo
 
-This project is built with:
+> Use the templates in `.github` for issues and PRs
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+🎯 Final Goal
 
-Simply open [Lovable](https://lovable.dev/projects/109c5877-a20b-418a-b22e-3b65d9b96cb7) and click on Share -> Publish.
+Deliver a modular, real-time, AI-integrated drone simulation and control system with secure comms and SoC feasibility by the end of the 4-week MVP.
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
+📣 Contact
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+For questions or contributions, please reach out to the Team Leader and project guide Dhilip J via the team WhatsApp group or open a GitHub issue.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+---
+
+ Team Judgement – Jayadhi Internship Program
+
